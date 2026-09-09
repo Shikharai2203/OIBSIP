@@ -1,0 +1,14 @@
+# Nmap 7.95 scan initiated Sun Sep  6 05:25:59 2026 as: /usr/lib/nmap/nmap -sV -O -oN /home/kali/nmap_scan_result.txt 127.0.0.1
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000066s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+8000/tcp open  http    SimpleHTTPServer 0.6 (Python 3.13.2)
+Device type: general purpose
+Running: Linux 2.6.X|5.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6.32 cpe:/o:linux:linux_kernel:5 cpe:/o:linux:linux_kernel:6
+OS details: Linux 2.6.32, Linux 5.0 - 6.2
+Network Distance: 0 hops
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Sep  6 05:26:07 2026 -- 1 IP address (1 host up) scanned in 8.07 seconds
